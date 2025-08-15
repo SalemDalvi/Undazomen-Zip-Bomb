@@ -1,0 +1,19 @@
+# Dependencias principales
+numpy>=1.21.0
+psutil>=5.8.0
+zstandard>=0.15.0
+
+# Dependencias estándar (ya incluidas en Python 3.8+)
+# zipfile - Biblioteca estándar
+# zlib - Biblioteca estándar  
+# lzma - Biblioteca estándar
+# pathlib - Biblioteca estándar
+# threading - Biblioteca estándar
+# hashlib - Biblioteca estándar
+# ctypes - Biblioteca estándar
+# platform - Biblioteca estándar
+# time - Biblioteca estándar
+# os - Biblioteca estándar
+# sys - Biblioteca estándar
+# random - Biblioteca estándar
+# io - Biblioteca estándar
