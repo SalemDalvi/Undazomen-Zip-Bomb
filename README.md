@@ -1,6 +1,6 @@
 # Undazomen
 
-An advanced high-compression ZIPBOMB generator for penetration testing and security analysis.
+An advanced high-compression Zip-Bomb generator for penetration testing and security analysis.
 
 ## Description
 
@@ -12,7 +12,7 @@ Imagine you have a massive warehouse full of identical boxes. Now, what if you c
 
 ### The Compression Cascade
 
-Here's the brilliant (and slightly evil) process:
+Here's the process:
 
 1. **Start Big**: Generate 512MB of highly compressible data patterns
 2. **Squeeze Hard**: Use Zstandard compression to crush it down ~32,000x smaller
@@ -29,7 +29,7 @@ Here's the brilliant (and slightly evil) process:
 | **Final Zip** | Package everything with decoy files | Result: ~78KB |
 | **Extraction** | Recursive decompression explodes exponentially | **78KB → 5.8TB** |
 
-The secret sauce? **Repetitive data compresses insanely well**, and when you stack compressions on top of each other, the math gets absolutely wild. It's like compound interest, but for file size explosions.
+**Repetitive data compresses insanely well**, and when you stack compressions on top of each other, the math gets absolutely wild. It's like compound interest, but for file size explosions.
 
 ### Real-World Impact
 
@@ -39,7 +39,7 @@ When someone tries to extract your innocent-looking 78KB file:
 - RAM gets obliterated
 - System processes grind to a halt
 
-It's not malicious - it's just mathematical brutality. The computer dutifully follows the compression instructions, unaware it's being asked to materialize terabytes from kilobytes.
+The computer dutifully follows the compression instructions, unaware it's being asked to materialize terabytes from kilobytes.
 
 ### Why This Beats Old-School Zipbombs
 
@@ -310,4 +310,4 @@ This project is under the MIT License. See `LICENSE` file for more details.
 
 
 
-**Legal Notice**: This tool is provided for educational and research purposes only. Developers are not responsible for misuse of this tool.
+**Legal Notice**: This tool is provided for educational and research purposes only. I am not responsible for misuse of this tool.
